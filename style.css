@@ -189,6 +189,9 @@ a{
 	width: 920px;
 	margin: 0 auto;
 }
+.paragraph h1:hover {
+	color: #cd2027;
+}
 .footer {
 	width: 100%;
 	background: #000000;
