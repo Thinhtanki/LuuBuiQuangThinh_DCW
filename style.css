@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+/*	overflow: hidden;*/
+}
+body {
+	font-family: 'futura', sans-serif;
+}
+h1 {
+/*	text-transform: uppercase;*/
+	text-decoration: none;
+	color: #808080;
+}
+a{
+	text-decoration: none;
+}
+.clearfix {
+	clear: both;
+}
+.outer {
+	width: 100%;
+/*	background: #FCFFA0;*/
+}
+#container {
+	width: 100%;
+/*	background: #C81B1D;*/
+	margin: 0 auto
+}
+.header {
+	width: 100%;
+	height: 100px;
+	background: #000000;
+}
+.header a:hover{
+	opacity: 0.6;
+	color: aliceblue;
+}
+.logo {
+	width: 300px;
+	height: 100px;
+	float: left;
+/*	background: #0AFF00;*/
+	margin-left: 125px;
+}
+.banner1 {
+	width: 400px;
+	height: 30px;
+	float: right;
+/*	background: #0015FF;*/
+	margin: 15px 125px 0px;
+	line-height: 30px;
+}
+.banner1 ul{
+	list-style: none;
+}
+.banner1 ul li{
+	float: right;
+	margin: 0 5px;
+}
+.banner1 ul li a{
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 12px;
+	line-height: 30px;
+}
+.banner2 {
+	width: 400px;
+	height: 40px;
+	float: right;
+/*	background: #0015FF;*/
+	margin: 0px 125px 15px;
+}
+.banner2 ul{
+	list-style: none;
+}
+.banner2 ul li{
+	float: right;
+	margin: 0 10px
+}
+.banner2 ul li a{
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 20px;
+	line-height: 40px;
+}
+.menu {
+	width: 100%;
+	height: 50px;
+	background: rgba(0,0,0,0.80);
+	float: left;
+}
+.menu ul{
+	list-style: none;
+	margin-left: 140px;
+}
+.menu ul li{
+	float: left;
+	line-height: 50px;
+	margin-right: 30px
+}
+.menu ul li a{
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 16px;
+}
+.searchbar {
+	width: 180px;
+	height: 23px;
+	margin: 12px 125px 13px 0px;
+	float: right;
+	background: white;
+	opacity: 0.8;
+}
+.searchbar img {
+	margin: 5px 5px 2px;
+	float: right;
+}
+.main {
+	width: 100%;
+	margin: 0 auto;
+/*	background: aliceblue;*/
+	overflow: hidden;
+}
+.sector {
+	width: 920px;
+	height: 460px; 
+	margin: 50px auto;
+/*	background: #BF494B;*/
+}
+.left1 {
+	width: 320px;
+	height: 100%;
+	float: left;
+/*	background: #cd2027;*/
+}
+.righ1 {
+	width: 595px;
+	height: 100%;
+	float: right;
+/*	background: #808080;*/
+	overflow: hidden;
+}
+.right2 {
+	width: 320px;
+	height: 100%;
+	float: right;
+/*	background: #cd2027;*/
+}
+.right2 h1 {
+	color: black;
+}
+.right2 h1:hover{
+	color: #808080;
+}
+.right2 ul{
+	list-style: none;
+/*	margin-left: 20px;*/
+}
+.right2 ul li{
+	line-height: 50px;
+/*	margin-right: 30px*/
+}
+.right2 ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+/*	padding: 10px 20px;*/
+}
+.right2 .textbox ul li a:hover{
+	color: #CD2027;
+}
+.left2 {
+	width: 595px;
+	height: 100%;
+	float: left;
+/*	background: #808080;*/
+	overflow: hidden;
+}
+.sector p {
+/*	vertical-align: top;*/
+}
+.textbox {
+	display: inline-block;
+	margin: 30px;
+}
+.paragraph {
+	width: 920px;
+	margin: 0 auto;
+}
+.footer {
+	width: 100%;
+	background: #000000;
+}
+.contact {
+/*	width: 100%;*/
+	line-height: 20px;
+	float: left;
+}
+.contact h3 {
+	padding-top: 20px;
+	color: #999999;
+}
+.contact ul{
+	list-style: none;
+/*	text-align: center*/
+}
+.contact ul li{
+/*	float: left;*/
+/*	display: inline;*/
+	margin: 5px 20px;
+/*	display: inline-block;*/
+}
+.contact ul li a{
+	text-decoration: none;
+	color: #808080;
+/*	margin: 0 auto;*/
+	font-size: 12px
+}
+.contact ul li a:hover{
+ 	color: #999999;
+}
+.Follow-us {
+/*	width: 100%;*/
+	line-height: 20px;
+	float: left;
+}
+.Follow-us h4 {
+	padding-top: 20px;
+	color: #999999;
+}
+.Follow-us ul{
+	list-style: none;
+/*	text-align: center*/
+}
+.Follow-us ul li{
+/*	float: left;*/
+/*	display: inline;*/
+	margin: 5px 20px;
+/*	display: inline-block;*/
+}
+.Follow-us ul li a{
+	text-decoration: none;
+	color: #808080;
+/*	margin: 0 auto;*/
+	font-size: 12px;
+}
+.Follow-us ul li a:hover{
+ 	color: #999999
+}
+.companyname {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+/*	padding: 20px 0px 10px;*/
+	text-align: center;
+	clear: both
+}
+.companyname hr {
+	width: 150px;
+	margin: 0 auto;
+}
+.companyname a {
+	text-decoration: none;
+	font-weight: bold;
+	color: aliceblue;
+	font-size: 15px;
+}
+.companyname a:hover{
+	color: #cd2027;
+}
